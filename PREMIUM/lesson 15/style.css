@@ -1,0 +1,19 @@
+* {
+    font-size: 40px;
+}
+
+/* --------------------------- */
+
+.text--bold {
+    font-weight: 800;
+}
+
+.parent > .child {
+    color: darkblue;
+}
+
+#blog {
+    color: burlywood;
+    text-decoration: overline;
+}
+
