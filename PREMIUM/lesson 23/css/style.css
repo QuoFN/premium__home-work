@@ -1,0 +1,25 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.block {
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70rem;
+    height: 50rem;
+    background: url('../image/Mu-Cang-Chai.jpg') 50% 50% / auto 18.75rem no-repeat, linear-gradient(#3471cc, #ffffffaa);
+}
+
+.block1 {
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 70rem;
+    height: 50rem;
+    background-image: url('../image/1648717139_1.jpg'), linear-gradient(#cbff6b, #00ff5566);
+    background-size: auto 18.75rem, 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
