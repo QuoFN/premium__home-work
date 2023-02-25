@@ -1,0 +1,14 @@
+.block {
+    position: relative;
+    top: 35%;
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    box-shadow: 3px -1px 8px 20px rgba(47, 102, 144, 0.2) inset;
+    background-color: #6495ed;
+    border: 2px solid #333;
+}
+
+.block {
+    transform: rotate(-30deg) translate(10%);
+}
