@@ -1,0 +1,29 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    padding-top: 23em;
+}
+
+.nav {
+    width: 800px;
+    height: 200px;
+    border: 3px solid #333;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    padding: 5em;
+}
+
+.menu__item {
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+/* ---------------------------- */
+
+
+.menu__item:nth-child(1):hover {
+    color: red;
+}
