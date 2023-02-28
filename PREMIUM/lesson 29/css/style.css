@@ -1,0 +1,30 @@
+body {
+    background-color: #333;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    padding: 50px;
+    min-height: 100vh;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+}
+
+.block {
+    border: 5px dashed #444;
+    font-size: 40px;
+    padding: .8em;
+    text-align: center;
+}
+
+
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto minmax(100px, 200px) auto auto;
+    grid-template-rows: auto auto;
+}
